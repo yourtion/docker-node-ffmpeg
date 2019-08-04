@@ -1,6 +1,6 @@
-FROM jrottenberg/ffmpeg:3.2-alpine
+FROM jrottenberg/ffmpeg:4.1-alpine
 
-ENV NODE_VERSION 6.10.0
+ENV NODE_VERSION 12.7.0
 
 RUN adduser -D -u 1000 node \
     && apk add --no-cache \
